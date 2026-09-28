@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tracemeta",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Trace config/meta key checks for twelve-factor services.",
+  "bin": {
+    "tracemeta": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tracemeta.git"
+  },
+  "homepage": "https://theworker02.github.io/tracemeta/",
+  "keywords": [
+    "trace",
+    "meta",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
